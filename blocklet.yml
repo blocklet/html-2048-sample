@@ -1,7 +1,7 @@
 name: static-demo-blocklet
 description: Demo blocklet that shows how to serve a static html5 game with ABT Node
 group: static
-version: 1.1.0
+version: 1.1.1
 main: app
 title: Static Demo
 publicUrl: /
@@ -13,12 +13,12 @@ author: 'wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)'
 charging:
   price: 0
 color: primary
-hooks:
-  pre-deploy: abtnode bundle
 keywords:
   - demo
   - game
   - blocklet
+hooks:
+  pre-deploy: abtnode bundle
 capabilities:
   dynamicPathPrefix: true
 specVersion: 1.0.0
