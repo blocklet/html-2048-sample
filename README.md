@@ -1,5 +1,8 @@
 # static-demo-blocklet
 
+![](https://github.com/blocklet/html-2048-sample/workflows/.github/workflows/main.yml/badge.svg)
+![](https://img.shields.io/badge/Powered%20By-ABT%20Node-yellowgreen)
+
 Demo blocklet contains only static files, which is an html5 game
 
 ## Run and debug in the cloud with Gitpod
