@@ -13,7 +13,11 @@
     "blocklet.md",
     "README.md"
   ],
-  "scripts": {},
+  "scripts": {
+    "clean": "rm -rf .blocklet",
+    "release": "npm run clean && an bundle --create-release",
+    "deploy": "npm run release && an deploy .blocklet/bundle"
+  },
   "keywords": [
     "demo",
     "game",

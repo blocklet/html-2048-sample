@@ -26,10 +26,10 @@ community: ''
 documentation: ''
 homepage: ''
 interfaces:
-  - type: gui
-    name: public_url
+  - type: web
+    name: publicUrl
     path: /
-    prefix: '*'
+    prefix: '/2048'
 environments: []
 screenshots: []
 scripts:
