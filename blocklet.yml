@@ -29,7 +29,7 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
-    prefix: '/2048'
+    prefix: '*'
 environments: []
 screenshots: []
 scripts:
