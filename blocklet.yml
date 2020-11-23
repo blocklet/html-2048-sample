@@ -23,4 +23,7 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: tcp
 did: z8ia4e5vAeDsQEE2P26bQqz9oWR1Lxg9qUMaV
