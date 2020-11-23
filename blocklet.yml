@@ -18,12 +18,9 @@ keywords:
   - blocklet
 screenshots: []
 environments: []
-scripts:
-  preDeploy: abtnode bundle
 specVersion: 1.0.1
-color: primary
-capabilities:
-  dynamicPathPrefix: true
-charging:
-  price: 0
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
 did: z8ia4e5vAeDsQEE2P26bQqz9oWR1Lxg9qUMaV
