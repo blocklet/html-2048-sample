@@ -10,7 +10,7 @@ make release
 npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
 
 echo "publishing did-connect blocklet..."
-abtnode bundle
+npm run release
 npm publish .blocklet/bundle
 
 # deploy to remote ABT Node
