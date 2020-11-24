@@ -9,8 +9,6 @@ RELEASE_URL=https://api.github.com/repos/ArcBlock/forge-connect/releases
 release:
 	@git config --local user.name "zhenqiang"
 	@git config --local user.email "zhenqiang@arcblock.io"
-	@git remote remove origin
-	@git remote add origin "https://$(GIT_HUB_TOKEN)@github.com/$(GITHUB_REPOSITORY).git"
 	@git tag -a $(RELEASE_VERSION) -m "Release $(RELEASE_VERSION). Revision is: $(GIT_VERSION)" | true
 	@git push origin $(RELEASE_VERSION) | true
 
