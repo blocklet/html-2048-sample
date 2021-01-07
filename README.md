@@ -23,7 +23,7 @@ git clone git@github.com:blocklet/static-demo.git
 cd static-demo
 abtnode init --mode debug
 abtnode start
-abtnode dev
+blocklet dev
 ```
 
 ## License

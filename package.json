@@ -15,8 +15,8 @@
   ],
   "scripts": {
     "clean": "rm -rf .blocklet",
-    "release": "npm run clean && abtnode bundle --create-release",
-    "deploy": "npm run release && abtnode deploy .blocklet/bundle --skip-hooks"
+    "release": "npm run clean && blocklet bundle --create-release",
+    "deploy": "npm run release && blocklet deploy .blocklet/bundle --skip-hooks"
   },
   "keywords": [
     "demo",
