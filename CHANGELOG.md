@@ -1,3 +1,10 @@
+## 1.1.7 (January 14, 2021)
+
+- feat: support publish to blocklet registry
+- [skip ci] update gitpod
+- [skip ci] fix gitpod dockerfile
+- [skip ci] Update README.md
+
 ## 1.1.6 (January 07, 2021)
 
 - replace abtnode command with blocklet command
