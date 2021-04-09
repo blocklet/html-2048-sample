@@ -1,3 +1,7 @@
+## 1.1.9 (April 09, 2021)
+
+- bump version
+
 ## 1.1.8 (April 08, 2021)
 
 - [skip ci] Update README.md
