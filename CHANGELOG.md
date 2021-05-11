@@ -1,3 +1,8 @@
+## 1.1.10 (May 11, 2021)
+
+- chore: add 'repository' field in blocklet.yml
+- [skip ci] Update README.md
+
 ## 1.1.9 (April 09, 2021)
 
 - bump version

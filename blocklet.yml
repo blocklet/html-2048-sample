@@ -1,6 +1,6 @@
 name: static-demo-blocklet
 title: Static Demo
-version: 1.1.9
+version: 1.1.10
 description: Demo blocklet that shows how to serve a static html5 game with ABT Node
 files:
   - app/
@@ -16,10 +16,10 @@ author:
   name: wangshijun
   email: wangshijun2010@gmail.com
   url: 'http://github.com/wangshijun'
+license: MIT
 repository:
   type: git
-  url: 'https://github.com/blocklet/html-2048-sample'
-license: MIT
+  url: 'git+https://github.com/blocklet/html-2048-sample.git'
 group: static
 main: app
 logo: logo.png
@@ -28,7 +28,7 @@ documentation: ''
 homepage: ''
 screenshots: []
 environments: []
-specVersion: 1.0.1
+specVersion: 1.1.1
 interfaces:
   - type: web
     name: publicUrl
@@ -48,3 +48,4 @@ requirements:
   os: '*'
   cpu: '*'
 children: []
+capabilities: {}
