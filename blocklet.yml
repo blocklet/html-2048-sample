@@ -16,6 +16,9 @@ author:
   name: wangshijun
   email: wangshijun2010@gmail.com
   url: 'http://github.com/wangshijun'
+repository:
+  type: git
+  url: 'https://github.com/blocklet/html-2048-sample'
 license: MIT
 group: static
 main: app
