@@ -1,3 +1,7 @@
+## 1.1.11 (十月 15, 2021)
+
+- feat: use action-workflow
+
 ## 1.1.10 (May 11, 2021)
 
 - chore: add 'repository' field in blocklet.yml
@@ -24,15 +28,9 @@
 
 ## 1.1.5 (November 24, 2020)
 
-
-
 ## 1.1.4 (November 24, 2020)
 
-
-
 ## 1.1.3 (November 24, 2020)
-
-
 
 ## 1.1.2 (November 20, 2020)
 
@@ -45,6 +43,3 @@
 - chore: add github action badge
 
 ## 1.1.0 (November 13, 2020)
-
-
-

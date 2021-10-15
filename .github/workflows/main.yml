@@ -1,4 +1,4 @@
-name: build
+name: Blocklet workflow
 
 on:
   push:
@@ -7,35 +7,43 @@ on:
 
 jobs:
   Deploy:
-
     runs-on: ubuntu-latest
 
     if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
-    - name: Checkout repo
-      uses: actions/checkout@v2
+      - name: Set yarn cache
+        uses: c-hive/gha-yarn-cache@v2
 
-    - name: Init repo
-      run: make github-action-init
+      - name: Init
+        run: make github-action-init
 
-    - name: Deploy
-      env:
-        AWS_NODE_ENDPOINT: ${{ secrets.AWS_NODE_ENDPOINT }}
-        AWS_NODE_ACCESS_KEY: ${{ secrets.AWS_NODE_ACCESS_KEY }}
-        AWS_NODE_ACCESS_SECRET: ${{ secrets.AWS_NODE_ACCESS_SECRET }}
-        ALIYUN_NODE_ENDPOINT: ${{ secrets.ALIYUN_NODE_ENDPOINT }}
-        ALIYUN_NODE_ACCESS_SECRET: ${{ secrets.ALIYUN_NODE_ACCESS_SECRET }}
-        ALIYUN_NODE_ACCESS_KEY: ${{ secrets.ALIYUN_NODE_ACCESS_KEY }}
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        GIT_HUB_TOKEN: ${{ secrets.GIT_HUB_TOKEN }}
-        BLOCKLET_REGISTRY: ${{ secrets.BLOCKLET_REGISTRY }}
-        ABTNODE_DEV_SK: ${{ secrets.ABTNODE_DEV_SK }}
-      run: bash ./tools/publish.sh
+      - name: Bundle
+        run: yarn bundle
 
-    - name: Release to Github
-      uses: blocklet/action-release-to-github@v1.0.0
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Blocklet workflow
+        uses: blocklet/action-workflow@v0.2.2
+        with:
+          skip-bundle: true
+          skip-upload: false
+          skip-deploy: false
+          registry-endpoint: ${{ secrets.BLOCKLET_REGISTRY }}
+          developer-sk: ${{ secrets.ABTNODE_DEV_SK }}
+          abtnode-endpoint: ${{ secrets.AWS_NODE_ENDPOINT }}
+          access-key: ${{ secrets.AWS_NODE_ACCESS_KEY }}
+          access-secret: ${{ secrets.AWS_NODE_ACCESS_SECRET }}
+          slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy ALIYUN_NODE
+        uses: blocklet/action-workflow@v0.2.2
+        with:
+          skip-bundle: true
+          skip-release: true
+          abtnode-endpoint: ${{ secrets.ALIYUN_NODE_ENDPOINT }}
+          access-key: ${{ secrets.ALIYUN_NODE_ACCESS_KEY }}
+          access-secret: ${{ secrets.ALIYUN_NODE_ACCESS_SECRET }}
+          slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
