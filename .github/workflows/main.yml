@@ -43,6 +43,7 @@ jobs:
         with:
           skip-bundle: true
           skip-release: true
+          skip-deploy: false
           abtnode-endpoint: ${{ secrets.ALIYUN_NODE_ENDPOINT }}
           access-key: ${{ secrets.ALIYUN_NODE_ACCESS_KEY }}
           access-secret: ${{ secrets.ALIYUN_NODE_ACCESS_SECRET }}
