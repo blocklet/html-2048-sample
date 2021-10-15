@@ -1,3 +1,7 @@
+## 1.1.12 (十月 15, 2021)
+
+- fix: ci
+
 ## 1.1.11 (十月 15, 2021)
 
 - feat: use action-workflow

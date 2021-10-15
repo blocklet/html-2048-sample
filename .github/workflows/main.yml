@@ -35,7 +35,7 @@ jobs:
           abtnode-endpoint: ${{ secrets.AWS_NODE_ENDPOINT }}
           access-key: ${{ secrets.AWS_NODE_ACCESS_KEY }}
           access-secret: ${{ secrets.AWS_NODE_ACCESS_SECRET }}
-          slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy ALIYUN_NODE
@@ -46,4 +46,4 @@ jobs:
           abtnode-endpoint: ${{ secrets.ALIYUN_NODE_ENDPOINT }}
           access-key: ${{ secrets.ALIYUN_NODE_ACCESS_KEY }}
           access-secret: ${{ secrets.ALIYUN_NODE_ACCESS_SECRET }}
-          slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
