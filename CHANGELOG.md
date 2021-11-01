@@ -1,3 +1,8 @@
+## 1.1.14 (十一月 01, 2021)
+
+- test: upgrade registry
+- [skip ci] Update README.md
+
 ## 1.1.13 (十月 15, 2021)
 
 - fix: deploy ALIYUN_NODE
