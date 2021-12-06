@@ -1,6 +1,6 @@
 name: static-demo-blocklet
 title: Static Demo
-version: 1.1.14
+version: 1.1.15
 description: Demo blocklet that shows how to serve a static html5 game with ABT Node
 files:
   - app/
@@ -28,7 +28,7 @@ documentation: ''
 homepage: ''
 screenshots: []
 environments: []
-specVersion: 1.1.1
+specVersion: 1.2.0
 interfaces:
   - type: web
     name: publicUrl
@@ -39,10 +39,9 @@ interfaces:
 did: z8ia4e5vAeDsQEE2P26bQqz9oWR1Lxg9qUMaV
 timeout:
   start: 10
-charging:
-  price: 0
-  tokens: []
-  shares: []
+payment:
+  price: []
+  share: []
 requirements:
   abtnode: '>=1.1.0'
   os: '*'

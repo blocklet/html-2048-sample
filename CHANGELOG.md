@@ -1,3 +1,8 @@
+## 1.1.15 (十二月 06, 2021)
+
+- chore: upgrade blocklet.yml
+- [skip ci] Update README.md
+
 ## 1.1.14 (十一月 01, 2021)
 
 - test: upgrade registry
