@@ -1,3 +1,7 @@
+## 1.1.18 (十二月 24, 2021)
+
+- [skip ci] Update README.md
+
 ## 1.1.17 (December 23, 2021)
 
 - chore: update docs, screenshots and abtnode-related scripts
