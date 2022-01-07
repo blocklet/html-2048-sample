@@ -1,3 +1,7 @@
+## 1.1.19 (一月 07, 2022)
+
+- bump version
+
 ## 1.1.18 (十二月 24, 2021)
 
 - [skip ci] Update README.md
