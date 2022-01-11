@@ -1,3 +1,7 @@
+## 1.1.20 (一月 10, 2022)
+
+- docs: update blocklet.md
+
 ## 1.1.19 (一月 07, 2022)
 
 - bump version
