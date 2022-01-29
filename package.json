@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.1.20",
+  "version": "1.1.21",
   "description": "Demo blocklet that shows how to serve a static html5 game with Blocklet Server",
   "files": [
     "app/",
