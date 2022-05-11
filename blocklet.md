@@ -1,4 +1,4 @@
-# static-demo-blocklet
+# Static Demo Blocklet
 
 This is a blocklet demo of the 2048 game used to demonstrate how to install and run a blocklet on your Blocklet Server. It is a pure front-end web application written in Javascript, HTML, and CSS. You may already have some basic understanding of [Blocklet](https://www.arcblock.io/en/blocklets) and [Blocklet Server](https://www.arcblock.io/en/node). Now you can have your own blocklet set up and running in just a few minutes.
 
@@ -9,3 +9,9 @@ This is a blocklet demo of the 2048 game used to demonstrate how to install and 
 - Follow the installation wizard to install blocklet on your Blocklet Server
 - Start the installed blocklet in the Blocklet Server console
 - Access the public address of the blocklet
+
+## How it's made?
+
+You can reference media files in the blocklet.md:
+
+![files](./screenshots/1-files.png)
