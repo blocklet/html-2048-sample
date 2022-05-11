@@ -7,7 +7,7 @@ Demo blocklet contains only static files, which is an html5 game
 
 ## Launch on Blocklet Server
 
-[![Launch on Blocklet Server](https://assets.arcblock.io/icons/launch_on_blocklet_server.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fhtml-2048-sample%2Freleases%2Fdownload%2Fv1.1.21%2Fblocklet.json)
+[![Launch on Blocklet Server](https://assets.arcblock.io/icons/launch_on_blocklet_server.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fhtml-2048-sample%2Freleases%2Fdownload%2Fv1.3.0%2Fblocklet.json)
 
 ## Run and debug in the cloud with Gitpod
 
