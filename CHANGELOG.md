@@ -1,3 +1,7 @@
+## 1.3.0 (May 11, 2022)
+
+- chore: trigger new release
+
 ## 1.2.0 (May 11, 2022)
 
 - chore: reference media in blocklet.md
