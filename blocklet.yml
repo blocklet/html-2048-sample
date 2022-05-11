@@ -1,6 +1,6 @@
 name: static-demo-blocklet
 title: Static Demo
-version: 1.1.21
+version: 1.2.0
 description: Demo blocklet that shows how to serve a static html5 game with Blocklet Server
 files:
   - app/
@@ -16,11 +16,11 @@ keywords:
 author:
   name: wangshijun
   email: wangshijun2010@gmail.com
-  url: 'http://github.com/wangshijun'
+  url: http://github.com/wangshijun
 license: MIT
 repository:
   type: git
-  url: 'git+https://github.com/blocklet/html-2048-sample.git'
+  url: git+https://github.com/blocklet/html-2048-sample.git
 group: static
 main: app
 logo: logo.png
@@ -30,7 +30,7 @@ homepage: ''
 screenshots:
   - 0-home.png
 environments: []
-specVersion: 1.2.1
+specVersion: 1.2.7
 interfaces:
   - type: web
     name: publicUrl
@@ -51,3 +51,4 @@ requirements:
 children: []
 capabilities:
   clusterMode: false
+  component: true

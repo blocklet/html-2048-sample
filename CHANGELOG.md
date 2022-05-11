@@ -1,3 +1,7 @@
+## 1.2.0 (May 11, 2022)
+
+- chore: reference media in blocklet.md
+
 ## 1.1.21 (January 29, 2022)
 
 ## 1.1.20 (一月 10, 2022)
