@@ -15,9 +15,9 @@
   ],
   "scripts": {
     "clean": "rm -rf .blocklet",
-    "release": "npm run clean && blocklet bundle --create-release",
-    "deploy": "npm run release && blocklet deploy .blocklet/bundle --skip-hooks",
-    "upload": "npm run release && blocklet upload .blocklet/release/blocklet.json"
+    "bundle": "npm run clean && blocklet bundle --create-release",
+    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle --skip-hooks",
+    "upload": "npm run bundle && blocklet upload .blocklet/release/blocklet.json"
   },
   "keywords": [
     "demo",
@@ -26,5 +26,8 @@
   ],
   "author": "wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)",
   "license": "MIT",
-  "gitHead": "e5764f753181ed6a7c615cd4fc6682aacf0cb7cd"
+  "gitHead": "e5764f753181ed6a7c615cd4fc6682aacf0cb7cd",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

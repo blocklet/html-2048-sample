@@ -5,10 +5,7 @@ description: Demo blocklet that shows how to serve a static html5 game with Bloc
 files:
   - app/
   - screenshots/
-  - logo.png
-  - blocklet.yml
-  - blocklet.md
-  - README.md
+  - hooks/pre-start.js
 keywords:
   - demo
   - game
@@ -52,3 +49,5 @@ children: []
 capabilities:
   clusterMode: false
   component: true
+scripts:
+  preStart: node hooks/pre-start.js
