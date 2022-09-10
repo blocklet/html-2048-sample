@@ -1,3 +1,7 @@
+## 1.4.0 (September 10, 2022)
+
+- chore: add hooks for static-demo
+
 ## 1.3.0 (May 11, 2022)
 
 - chore: trigger new release
