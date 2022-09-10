@@ -1,14 +1,11 @@
 name: static-demo-blocklet
 title: Static Demo
-version: 1.3.0
+version: 1.4.0
 description: Demo blocklet that shows how to serve a static html5 game with Blocklet Server
 files:
   - app/
   - screenshots/
-  - logo.png
-  - blocklet.yml
-  - blocklet.md
-  - README.md
+  - hooks/pre-start.js
 keywords:
   - demo
   - game
@@ -52,3 +49,5 @@ children: []
 capabilities:
   clusterMode: false
   component: true
+scripts:
+  preStart: node hooks/pre-start.js

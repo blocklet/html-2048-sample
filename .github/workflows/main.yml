@@ -22,7 +22,7 @@ jobs:
         run: make github-action-init
 
       - name: Bundle
-        run: yarn release
+        run: yarn bundle
 
       - name: Blocklet workflow
         uses: blocklet/action-workflow@v1
