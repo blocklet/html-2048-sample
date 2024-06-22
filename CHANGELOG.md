@@ -1,3 +1,7 @@
+## 1.4.0 (June 23, 2024)
+
+- chore: use static server as runtime
+
 ## 1.3.0 (May 11, 2022)
 
 - chore: trigger new release

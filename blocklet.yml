@@ -1,6 +1,6 @@
 name: static-demo-blocklet
 title: Static Demo
-version: 1.3.0
+version: 1.4.0
 description: Demo blocklet that shows how to serve a static html5 game with Blocklet Server
 files:
   - app/
@@ -29,7 +29,7 @@ homepage: ''
 screenshots:
   - 0-home.png
 environments: []
-specVersion: 1.2.7
+specVersion: 1.2.8
 interfaces:
   - type: web
     name: publicUrl
@@ -39,11 +39,12 @@ interfaces:
     protocol: tcp
 did: z8ia4e5vAeDsQEE2P26bQqz9oWR1Lxg9qUMaV
 engine:
-  interpreter: 'blocklet'
+  interpreter: blocklet
   source:
     store: https://store.blocklet.dev
     name: z2qa2dGC9EmsjB2WJtUcmuRWx43zTwPUZQF7g
     version: latest
+  args: []
 timeout:
   start: 10
 payment:
@@ -53,7 +54,8 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
-children: []
 capabilities:
   clusterMode: false
   component: true
+  navigation: true
+components: []
