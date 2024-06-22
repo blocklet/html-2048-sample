@@ -29,4 +29,3 @@ blocklet dev
 ## License
 
 The code is licensed under the MIT license found in the
-[LICENSE](LICENSE) file.

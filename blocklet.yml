@@ -21,7 +21,6 @@ license: MIT
 repository:
   type: git
   url: git+https://github.com/blocklet/html-2048-sample.git
-group: static
 main: app
 logo: logo.png
 community: ''
@@ -39,6 +38,12 @@ interfaces:
     port: BLOCKLET_PORT
     protocol: tcp
 did: z8ia4e5vAeDsQEE2P26bQqz9oWR1Lxg9qUMaV
+engine:
+  interpreter: 'blocklet'
+  source:
+    store: https://store.blocklet.dev
+    name: z2qa2dGC9EmsjB2WJtUcmuRWx43zTwPUZQF7g
+    version: latest
 timeout:
   start: 10
 payment:
