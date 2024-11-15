@@ -27,7 +27,7 @@ community: ''
 documentation: ''
 homepage: ''
 screenshots:
-  - 0-home.png
+  - 2d95435b7658aa6a7f73cc45a9b06ce0.png
 environments: []
 specVersion: 1.2.8
 interfaces:
@@ -54,6 +54,8 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
+scripts:
+  dev: blocklet dev
 capabilities:
   clusterMode: false
   component: true
