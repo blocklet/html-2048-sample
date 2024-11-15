@@ -1,3 +1,7 @@
+## 1.4.1 (十一月 15, 2024)
+
+- chore: update blocklet screenshots
+
 ## 1.4.0 (June 23, 2024)
 
 - chore: use static server as runtime
