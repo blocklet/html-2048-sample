@@ -10,8 +10,4 @@ This is a blocklet demo of the 2048 game used to demonstrate how to install and 
 - Start the installed blocklet in the Blocklet Server console
 - Access the public address of the blocklet
 
-## How it's made?
 
-You can reference media files in the blocklet.md:
-
-![files](./screenshots/1-files.png)
